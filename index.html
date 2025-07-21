@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body class>
+  <!-- Header Start -->
+  <nav class="navbar navbar-expand-lg bg- light pt-3 pb-3 ps-1 conainer position-sticky top-0">
+    <div class="container ps-xl-2 ps-lg-2 ps-md-0 ps-2 navbar-conatiner">
+      <a href="index.html" targ et="_blank"><img src="./images/logo.jpg" alt class="logo w- 25 h- 25"></a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="navbar-toggler-icon mm"></div>
+          <div><img src="./images/testi-icon.png" alt="" class="nav-icon"></div>
+        </button> -->
+      <div class="d-flex">
+        <div class="request-button me-4">
+          <a href="ContactUs.html"
+            class=" my-auto header-button text-center mt- 3 d-xl-none d-lg-none d-md-block d-block mx-auto ">Contact
+            Us
+          </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="navbar-toggler-icon mm"></div>
+          <div class="nav-icon "><img src="./images/icon2-(2).png" style="width: 25px;" class=" mt-1"></div>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse my-auto align-content-center" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto mb-2  gap-xl-3 gap-lg-3 gap-md-2 gap-2">
+          <li class="nav-item my-auto pt-xl-0 pt-lg-0 pt-md-3 pt-3">
+            <a class="nav-link  navfont-16px" aria-current="page" href="index.html" tar get="_blank">Home</a>
+          </li>
+          <li class="nav-item my-auto ">
+            <a class="nav-link navfont-16px " href="About.html" targ et="_blank">About</a>
+          </li>
+          <!-- <li class="nav-item my-auto ">
+              <a class="nav-link navfont-16px " href="#" tar get="_blank">Dentistry</a>
+            </li> -->
+          <li class="nav-item dropdown my-auto">
+            <a class="nav-link navfont-16px dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu my-auto">
+              <li><a class="dropdown-item navfont-16px" href="Dental-Implant.html" targ et="_blank">Dental Implants</a>
+              </li>
+              <li><a class="dropdown-item navfont-16px" href="Root-canal.html" targ et="_blank">Root-Canal Treatment</a>
+              </li>
+              <li><a class="dropdown-item navfont-16px" href="Crown&bridge.html" tar get="_blank">Crown & Bridge</a>
+              </li>
+              <li><a class="dropdown-item navfont-16px" href="Denture-work.html" tar get="_blank">Denture-Work</a></li>
+              <li><a class="dropdown-item navfont-16px" href="Orthodontics.html" tar get="_blank">Orthodontics</a></li>
+
+              <li><a class="dropdown-item navfont-16px" href="Dental-Extraction.html" tar
+                  get="_blank">Dental-Extraction</a></li>
+              <li><a class="dropdown-item navfont-16px" href="Bleaching-services.html " targ et="_blank">Bleaching</a>
+              </li>
+              <li><a class="dropdown-item navfont-16px" href="Restoration.html" tar get="_blank">Dental Restoration</a>
+              </li>
+              <li><a class="dropdown-item navfont-16px" href="Periodontal.html" tar get="_blank">Periodontal
+                  Treatment</a></li>
+
+
+              <li><a class="dropdown-item navfont-16px" href="Full Mouth Xray.html" targ et="_blank">Full Mouth X-Ray
+                  (OPG)</a>
+              </li>
+
+              <!-- <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item navfont-16px" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item my-auto">
+            <a class="nav-link navfont-16px" href="Faq.html" targe t="_blank">Faq</a>
+          </li>
+          <!-- <li class="nav-item my-auto">
+              <a class="nav-link navfont-16px" href="ContactUs.html"tar get="_blank">Contact Us</a>
+            </li> -->
+          <a href="ContactUs.html" class="header-button text-center d-xl-block d-lg-block d-md-none d-none">Contact
+            Us</a>
+        </ul>
+      </div>
+      <div class="bg-request d-xl-none d-lg-none d-md-none d-block">
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- Header End -->
+
+
+  <!-- Hero Section -->
+  <section class="hero-padding">
+    <div id="carouselExampleDark" class="carousel slide hero-background position- relative  " data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active slider"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" class="slider" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" class="slider" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="">
+        <div class="carousel-inner   ">
+          <div class="carousel-item active " data-bs-interval="3000">
+            <div class="row img-carausel  ">
+              <div class=" col-xl-6 col-lg-6 col-md-12 col-12 herocol-color">
+                <h3 class="sub-heading">Welcome To Arora Dental Clinic</h3>
+                <h1 class="font-75px m-0">Make Your Smile Brighter With Us
+                  <span class="font-color font-80px"><br class="  d-xl-block d-lg-none d-md-block d-block">
+                    Arora Dental Clinic</span>
+                </h1>
+                <p class="font-20 pt-4 pb-4">We are here to provide you all General & Cosmetic Dentistry, Prosthetic
+                  Dentistry, Endodontic Dentistry, Orthodontic Treatment, Oral & Maxillofacial Surgery, Dental Implants,
+                  and Periodontal (GUM) Treatments.</p>
+                <a href="ContactUs.html" class="header-button ">Contact Us</a>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-12   hero-img  ">
+                <img src="./images/arora5.JPG" alt="" class="w-100 h-100 about-img  ">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row img-carausel ">
+              <div class=" col-xl-6 col-lg-6 col-md-12 col-12 herocol-color  my-auto    ">
+                <h3 class="sub-heading">Welcome To Arora Dental Clinic</h3>
+                <h1 class="font-75px m-0">Make Your Smile Brighter With Us<span class="font-color font-80px"><br
+                      class="  d-xl-block d-lg-none d-md-block d-block">
+                    Arora Dental Clinic</span> </h1>
+                <p class="font-20 pt-4 pb-4">We are here to provide you all General & Cosmetic Dentistry, Prosthetic
+                  Dentistry, Endodontic Dentistry, Orthodontic Treatment, Oral & Maxillofacial Surgery, Dental Implants,
+                  and Periodontal (GUM) Treatments.</p>
+                <a href="ContactUs.html" class="header-button ">Contact Us</a>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-12 hero-img ">
+                <img src="./images/arora5.JPG" alt="" class="w-100 h-100 about-img  ">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row  img-carausel">
+              <div class=" col-xl-6 col-lg-6 col-md-12 col-12 herocol-color  my-auto ">
+                <h3 class="sub-heading">Welcome To Arora Dental Clinic</h3>
+                <h1 class="font-75px m-0">Make Your Smile Brighter With Us<span class="font-color font-80px"><br
+                      class="  d-xl-block d-lg-none d-md-block d-block">
+                    Arora Dental Clinic</span> </h1>
+                <p class="font-20 pt-4 pb-4">We are here to provide you all General & Cosmetic Dentistry, Prosthetic
+                  Dentistry, Endodontic Dentistry, Orthodontic Treatment, Oral & Maxillofacial Surgery, Dental Implants,
+                  and Periodontal (GUM) Treatments.</p>
+                <a href="ContactUs.html" class="header-button ">Contact Us</a>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-12 hero-img ">
+                <img src="./images/arora5.JPG" alt="" class="w-100 h-100 about-img  ">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+
+  </section>
+
+  <!-- Hero Section End -->
+  <!-- About Section Start -->
+  <section class="About-section pt-80 container">
+    <div class="row">
+      <div
+        class=" col-xl-6 col-lg-6 col-md-12 col-12 about-bgimg p-2 order-last order-xl-first order-lg-first order-md-last mt-xl-0 mt-lg-0 mt-md-5 mt-5 ">
+        <img src="./images/Aroradental.JPG" alt class="w-100 h-100  about-img p-1">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-12 col-12 ps-xl-5 ps-lg-5 ps-md-3 ps-3 pt-0">
+        <h1 class="font-85px mb-xl-0 mb-lg-0 mb-md-0 serv-margin">WELCOME</h1>
+        <h2 class="font-48px mb-0 pb-4"> Your Smile Journey Starts here</h2>
+        <p class="font-20 pb-4 m-0">We, at <b>Arora Dental Clinic</b>, provide you a unique experience of dental care
+          with our outstanding customer service using the most advanced technical systems. Our goal is to make Arora
+          Dental Clinic stand out by providing top-quality dentistry, great customer service, and using the latest
+          dental technology, all in a friendly and comfortable atmosphere.
+
+          <br>
+
+          At Arora Dental Clinic, we aim to give you a special dental experience. We use advanced systems and offer
+          excellent customer service. Located in the heart of Punjab, we follow top-notch infection control procedures
+          to meet international standards.
+        </p>
+
+        <a href="About.html" class="header-button ">More Information</a>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+  <!-- Services Section Start -->
+  <section class="pt-80 container">
+
+    <div class="row mt-xl-4 mt-lg-3 mt-md-4 mt-2 mt-0  ">
+      <div class="col-xl-3 col-lg-6 col-md-6 col-12 text-center mt-xl-0 mt-lg-5 mt-md-5 mt-3">
+        <div class="services-col ps-3 pb-3 pe-3 our-vision">
+          <img src="./images/icon-img1.png" alt class="services-icon">
+          <h4 class="font-26px pt-4">Our Mission</h4>
+          <p class="font-20">Our mission is to provide exceptional dental care to our patients, providing their oral
+            health and overall well-being. We are committed to delivering personalized and compassionate treatment in a
+            comfortable and welcoming environment. Our goal is to help our patients to achieve and maintain a healthy
+            smile for a life.</p>
+        </div>
+
+      </div>
+      <div class="col-xl-3 col-lg-6 col-md-6 col-12  text-center mt-xl-0 mt-lg-5 mt-md-5 mt-5">
+        <div class=" services-col ps-3 pb-3 pe-3 our-vision ">
+          <img src="./images/icon-img2.png" alt class="services-icon">
+          <h4 class="font-26px pt-4">Our
+            Vision</h4>
+          <p class="font-20">Our vision is to be the leading dental clinic in our community, recognized for our
+            excellence in dental care and patient satisfaction. We strive to continuously improve our services, stay at
+            the forefront of dental technology, and foster a positive and supportive team culture. We aim to be the
+            trusted choice for all dental needs, providing comprehensive and innovative solutions to enhance our
+            patients' oral health.</p>
+        </div>
+
+      </div>
+      <div class="col-xl-3 col-lg-6 col-md-6 col-12 text-center text-center mt-xl-0 mt-lg-5 mt-md-5 mt-5 ">
+        <div class="services-col ps-3 pb-3 pe-3 our-vision">
+          <img src="./images/icon-img3.png" alt class="services-icon">
+          <h4 class="font-26px pt-4">Our
+            Values</h4>
+          <p class="font-20">Our values are centered around patient care, excellence, compassion, and integrity. We
+            prioritize the needs and preferences of our patients, delivering the highest standard of dental care with
+            empathy and kindness. We uphold ethical standards, providing transparency and confidentiality in our
+            communication.</p>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-6 col-md-6 col-12 text-center text-center mt-xl-0 mt-lg-5 mt-md-5 mt-5 ">
+        <div class="services-col ps-3 pb-3 pe-3 our-vision">
+          <img src="./images/icon-img4.png" alt class="services-icon">
+          <h4 class="font-26px pt-4">Our
+            Facility</h4>
+          <p class="font-20">Our dental clinic is equipped with the latest technology and modern amenities to provide
+            our patients with the highest level of comfort and convenience. Our treatment rooms are designed to create a
+            relaxing atmosphere, and we use advanced dental equipment to deliver precise and efficient care. We maintain
+            strict infection control protocols to provide a safe and hygienic environment for our patients.
+            Additionally, our clinic is easily accessible for individuals with disabilities.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="services-bg d-xl-block d-lg-block d-md-block d-none">
+  </section>
+  <!-- Services Section End -->
+
+  <!-- Our Services Deskstop Start -->
+  <section class="pt-80 container-fluid d-xl-block d-md-none d-lg-block d-none">
+    <h1 class="font-85px mb-xl-0 mb-lg-0 mb-md-0 text-center serv-margin">SERVICES</h1>
+    <h2 class="font-48px text-center">Our Services</h2>
+    <div class="row mt-4 pb-4 ">
+      <div class=" col-xl-3 col-lg-3 col-md-3 col-12 p-0 p-2 ">
+        <a href="Dental-Implant.html" class="text-decoration-none">
+          <div class="Services-bgimg hover-color d-flex align-items-end justify-content-end ">
+            <h2 class="font-40px p-2 text-end ">Dental Implant</h2>
+          </div>
+        </a>
+        <a href="Orthodontics.html" class="text-decoration-none">
+          <div class="Services-bgimg2 hover-color d-flex align-items-end justify-content-end mt-2 ">
+            <h2 class="font-40px p-2 text-end ">Orthodontics</h2>
+          </div>
+        </a>
+
+        <!-- <div class="Services-bgimg3 hover-color d-flex align-items-end justify-content-end mt-2">
+        <h2 class="font-40px p-2  "> Periodontal</h2>
+      </div> -->
+      </div>
+      <div
+        class=" col-xl-3 col-lg-3 col-md-3 col-12  pt-xl-2 pt-lg-2 pt-md-2 pt-0 pb-xl-2 pb-lg-2 pb-md-2 pb-0 pb pb- ps-lg-0 ps-xl-0 ps-md-0 ps-2 pe-lg-0 pe-xl-0 pe-md-0 pe-2 ">
+        <a href="Root-canal.html" class="text-decoration-none">
+          <div class="Services-bgimg4 hover-color d-flex align-items-end justify-content-end  ">
+            <h2 class="font-40px p-2 text-end  ">Root Canal</h2>
+          </div>
+        </a>
+        <a href="Dental-Extraction.html" class="text-decoration-none">
+          <div class="Services-bgimg5 hover-color d-flex align-items-end justify-content-end mt-2 ">
+            <h2 class="font-40px p-2 text-end">Dental Extraction</h2>
+          </div>
+        </a>
+
+        <!-- <div class="Services-bgimg6 hover-color d-flex align-items-end justify-content-end mt-2">
+        <h2 class="font-40px p-2">Dental Extraction </h2>
+      </div> -->
+      </div>
+      <div class=" col-xl-3 col-lg-3 col-md-4 col-12  p -2 pt-2 ps-2 pe-2 pb-0 ">
+        <a href="Crown&bridge.html" class="text-decoration-none">
+          <div class="Services-bgimg7 hover-color d-flex align-items-end justify-content-end ">
+            <h2 class="font-40px p-2 text-end  ">Crown & Bridge</h2>
+          </div>
+        </a>
+        <a href="Bleaching-services.html" class="text-decoration-none">
+          <div class="Services-bgimg8 hover-color d-flex align-items-end justify-content-end mt-2 ">
+            <h2 class="font-40px p-2 text-end">Bleaching</h2>
+          </div>
+        </a>
+
+        <!-- <div class="Services-bgimg9 hover-color d-flex align-items-end justify-content-end mt-2">
+        <h2 class="font-40px p-2  ">Treatment</h2>
+      </div> -->
+      </div>
+      <div
+        class=" col-xl-3 col-lg-3 col-md-3 col-12  pt-xl-2 pt-lg-2 pt-md-2 pt-0 pb-xl-2 pb-lg-2 pb-md-2 pb-0 pb pb- ps-lg-0 ps-xl-0 ps-md-0 ps-2 pe-lg-2 pe-xl-2 pe-md-0 pe-2 ">
+        <a href="Denture-work.html" class="text-decoration-none">
+          <div class="Services-bgimg6 hover-color d-flex align-items-end justify-content-end mt -2">
+            <h2 class="font-40px p-2 text-end ">Dental Work </h2>
+          </div>
+        </a>
+        <a href="Periodontal.html" class="text-decoration-none">
+          <div class="Services-bgimg3 hover-color d-flex align-items-end justify-content-end mt-2">
+            <h2 class="font-40px p-2 text-end "> Periodontal</h2>
+          </div>
+        </a>
+
+
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <a href="Services.html" class="header-button ">Read More</a>
+    </div>
+
+  </section>
+  <!-- Our Services Deskstop End -->
+
+  <!-- our Services Section Start -->
+
+  <section class="pt-80 co ntainer -fluid d-xl-none d-lg-none d-md-block d-block">
+    <div class="p-1">
+      <h1 class="font-85px mb-xl-0 mb-lg-0 mb-md-0 text-center serv-margin">SERVICES</h1>
+      <h2 class="font-48px text-center">Our Services</h2>
+      <div class="owl-carousel owl-theme owl-nav p-2  mt-xl-4 mt-lg-4 mt-md-4 mt-3">
+        <div class="item">
+          <a href="Dental-Implant.html" class="text-decoration-none">
+            <div class="Services-bgimg hover-color d-flex align-items-end justify-content-end ">
+              <h2 class="font-40px p-2 text-end ">Dental Implant</h2>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="Root-canal.html" class="text-decoration-none">
+            <div class="Services-bgimg4 hover-color d-flex align-items-end justify-content-end  ">
+              <h2 class="font-40px p-2 text-end  ">Root Canal</h2>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="Crown&bridge.html" class="text-decoration-none">
+            <div class="Services-bgimg7 hover-color d-flex align-items-end justify-content-end ">
+              <h2 class="font-40px p-2 text-end  ">Crown & Bridge</h2>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+
+          <a href="Denture-work.html" class="text-decoration-none">
+            <div class="Services-bgimg6 hover-color d-flex align-items-end justify-content-end mt -2">
+              <h2 class="font-40px p-2 text-end ">Dental Work </h2>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="Orthodontics.html" class="text-decoration-none">
+            <div class="Services-bgimg2 hover-color d-flex align-items-end justify-content-end mt- 2 ">
+              <h2 class="font-40px p-2 text-end ">Orthodontics</h2>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="Dental-Extraction.html" class="text-decoration-none">
+            <div class="Services-bgimg5 hover-color d-flex align-items-end justify-content-end mt-2 ">
+              <h2 class="font-40px p-2 text-end">Dental Extraction</h2>
+            </div>
+          </a>
+
+        </div>
+        <div class="item">
+          <a href="Bleaching-services.html" class="text-decoration-none">
+            <div class="Services-bgimg8 hover-color d-flex align-items-end justify-content-end mt-2 ">
+              <h2 class="font-40px p-2 text-end">Bleaching</h2>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="Periodontal.html" class="text-decoration-none">
+            <div class="Services-bgimg3 hover-color d-flex align-items-end justify-content-end mt-2">
+              <h2 class="font-40px p-2 text-end "> Periodontal</h2>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#" class="text-decoration-none">
+            <div class="Services-bgimg3 hover-color d-flex align-items-end justify-content-end mt-2">
+              <h2 class="font-40px p-2 text-end "> Restoration</h2>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#" class="text-decoration-none">
+            <div class="Services-bgimg3 hover-color d-flex align-items-end justify-content-end mt-2">
+              <h2 class="font-40px p-2 text-end "> Full Mouth X-Ray</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="Services.html" class="header-button ">Read More</a>
+      </div>
+  </section>
+  <!-- Our Services Section End -->
+
+  <!-- Testimonials Section Start -->
+  <section class="pt-80 container ">
+    <h1 class="font-85px mb-xl-0 mb-lg-0 mb-md-0 text-center serv-margin">TESTIMONIALS</h1>
+    <h2 class="font-48px text-center "> Testimonials</h2>
+    <div class="owl-carousel owl-theme ">
+      <div class="item pt- 5 p-1">
+        <div class=" mt-5">
+          <div
+            class="testi-inner-item boxshadow-col mt-5 pe-5 pb-4 pt- 3 ps-xl-5 ps-lg-4 ps-md-4 ps-4 pe-xl-5 pe-lg-4 pe-md-4 pe-4 text-center">
+            <img src="./images/testi-icon.png" alt class="Testimonials-icon  ">
+            <p class="font-20 text-start pt-5 testi-text"> Very Experienced and friendly doctor. Told me about the
+              problem and best way to fix it . World class Hospital with state of the art new equipment recommend to
+              all. 5 star Rating
+            </p>
+            <p class="font-22 text-start testi-username">Satish Kumar</p>
+          </div>
+        </div>
+      </div>
+      <div class="item pt- 5 p-1">
+        <div class=" mt-5  ">
+          <div
+            class="testi-inner-item boxshadow-col pe-5 pb-4 pt- 3 ps-xl-5 ps-lg-4 ps-md-4 ps-4 pe-xl-5 pe-lg-4 pe-md-4 pe-4 text-center">
+            <img src="./images/testi-icon.png" alt class="Testimonials-icon  ">
+            <p class="font-20 text-start pt-5 testi-text"> Very friendly staff. Welcoming atmosphere which puts you at
+              ease straight away. Provides excellent patient care. Very good preventative advice given. I was finally
+              shown how to floss effectively
+            </p>
+            <p class="font-22 text-start testi-username">Mr. Surjit Singh Kohli</p>
+          </div>
+        </div>
+      </div>
+      <div class="item pt- 5 p-1 ">
+        <div class="mt-5 ">
+          <div
+            class="testi-inner-item boxshadow-col pe-5 pb-4 pt- 3 ps-xl-5 ps-lg-4 ps-md-4 ps-4 pe-xl-5 pe-lg-4 pe-md-4 pe-4 text-center">
+            <img src="./images/testi-icon.png" alt class="Testimonials-icon  ">
+            <p class="font-20 text-start pt-5 testi-text"> It is really amazing that such a high quality treatment can
+              be offered at these low prices. Thank you for helping me enjoy smiling again.
+            </p>
+            <p class="font-22 text-start testi-username">Mr. Suresh Soni</p>
+          </div>
+        </div>
+      </div>
+      <div class="item pt- 5 p-1 ">
+        <div class="mt-5 ">
+          <div
+            class="testi-inner-item  boxshadow-col pe-5 pb-4 pt- 3 ps-xl-5 ps-lg-4 ps-md-4 ps-4 pe-xl-5 pe-lg-4 pe-md-4 pe-4 text-center">
+            <img src="./images/testi-icon.png" alt class="Testimonials-icon  ">
+            <p class="font-20 text-start pt-5 testi-text"> I felt at ease even before my visit just talking to him on
+              the telephone. Throughout my appointment, I felt relaxed and left feeling 'what a nice time' I had had at
+              the dentist. I can say I have never left the dentist with that feeling.
+            </p>
+            <p class="font-22 text-start testi-username">Mrs. Rekha Chawala</p>
+          </div>
+        </div>
+      </div>
+      <div class="item pt- 5 p-1 ">
+        <div class="mt-5 ">
+          <div
+            class="testi-inner-item boxshadow-col pe-5 pb-4 pt- 3 ps-xl-5 ps-lg-4 ps-md-4 ps-4 pe-xl-5 pe-lg-4 pe-md-4 pe-4 text-center">
+            <img src="./images/testi-icon.png" alt class="Testimonials-icon  ">
+            <p class="font-20 text-start pt-5 testi-text"> Thank you all so much for making my experience at Dr.
+              Gurapl's Dental a good one. You have all been so friendly and helpful.
+
+            </p>
+            <p class="font-22 text-start testi-username">Mr. Jaspal Sodhi</p>
+          </div>
+        </div>
+      </div>
+      <div class="item pt- 5 p-1 ">
+        <div class="mt-5 ">
+          <div
+            class="testi-inner-item boxshadow-col pe-5 pb-4 pt- 3 ps-xl-5 ps-lg-4 ps-md-4 ps-4 pe-xl-5 pe-lg-4 pe-md-4 pe-4 text-center">
+            <img src="./images/testi-icon.png" alt class="Testimonials-icon  ">
+            <p class="font-20 text-start pt-5 testi-text"> I have been absolutely delighted with the results of my
+              orthodontic treatment. I have always received friendly professional treatment from both Team and the
+              reception staff
+            </p>
+            <p class="font-22 text-start testi-username">Mrs Sunita Arora</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="pt-80"></section>
+  <!-- <section class="services-bg d-xl-block d-lg-block d-md-block d-none">
+  </section>  -->
+
+  <!-- <section class="pt-80 container  ">
+    <h1 class="font-85px mb-xl-0 mb-lg-0 mb-md-0 text-center">TESTIMONIALS</h1>
+    <h2 class="font-48px text-center"> Testimonials</h2>
+    <div class="row pt-1">
+      <div class=" col-xl-4 col-lg-4 col-md-12 col-12 mt-5">
+        <div class=" boxshadow-col ps-5 pe-5 pb-4 pt-5 text-center">
+          <img src="./images/testi-icon.png" alt="" class="Testimonials-icon  ">
+          <p class="font-20 text-start"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, a. Eveniet quod
+            inventore,
+            non labore quis quaerat obcaecati iure possimus ad animi. Quibusdam iste, vero harum sequi sapiente incidunt
+            praesentium!</p>
+          <p class="font-22 text-start">Lauren Jewell</p>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-12 col-12 mt-5">
+        <div class=" boxshadow-col ps-5 pe-5 pb-4 pt-5 text-center">
+          <img src="./images/testi-icon.png" alt="" class="Testimonials-icon  ">
+          <p class="font-20 text-start"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, a. Eveniet quod
+            inventore,
+            non labore quis quaerat obcaecati iure possimus ad animi. Quibusdam iste, vero harum sequi sapiente incidunt
+            praesentium!</p>
+          <p class="font-22 text-start">Lauren Jewell</p>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-12 col-12 mt-5">
+        <div class=" boxshadow-col ps-5 pe-5 pb-4 pt-5 text-center">
+          <img src="./images/testi-icon.png" alt="" class="Testimonials-icon  ">
+          <p class="font-20 text-start"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, a. Eveniet quod
+            inventore,
+            non labore quis quaerat obcaecati iure possimus ad animi. Quibusdam iste, vero harum sequi sapiente incidunt
+            praesentium!</p>
+          <p class="font-22 text-start">Lauren Jewell</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services-bg d-xl-block d-lg-block d-md-block d-none">
+  </section> -->
+
+  <!-- Testimonials Section End -->
+  <!-- Contact Us Section Start -->
+
+  <section class=" contact-us">
+    <div class="container">
+      <!-- <h1 class="font-85px text-center">CONTACT US</h1>
+      <H2 class="font-48px text-center">Contact Us</H2> -->
+      <div class="row">
+        <div class=" col-xl-5 col-lg-5 col-md-12 col-12 ">
+          <div class="row">
+            <div class="col-6 p-0 pe-0 ps-1">
+              <div class="p-1 ps-2 ">
+                <img src="./images/arora1.JPG" alt class="contactus-img">
+              </div>
+              <div class="p-1 ps-2">
+                <img src="./images/arora2.JPG" alt class="contactus-img2">
+              </div>
+
+            </div>
+            <div class="col-6 p-0 ps- 2 pe-1 ">
+              <div class="p-1 pe-2 ">
+                <img src="./images/arora3.JPG" alt class="contactus-img img-rounded ">
+              </div>
+              <div class="p-1 pe-2">
+                <img src="./images/arora4.JPG" alt class="contactus-img2">
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div
+          class="col-xl-7 col-lg-7 col-md-12 col-12 my-auto  ps-xl-5 ps-lg-5 ps-md-0 ps-0 mt-xl-0 mt-lg-0 mt-md-5 mt-5">
+          <div class=" ps-xl-5 ps-lg-3 ps-md-3 ps-3 ">
+            <!-- <h1 class="font-85px mb-0 text-center">CONTACT US</h1> -->
+            <h2 class="font-48px  mt-xl-5 mt-lg-5 mt-md-0 mt-0">Visit Us</h2>
+            <p class="font-20">We provide you with high-quality ‌dental services with our professional dental care teams
+              to keep you smile brighter. Visit us for all kind of dental solutions.<br>
+              At Arora Dental Clinic, you can have complete confidence in the quality of our dentists, with professional
+              dental care teams placed around the country to provide top-quality care for your teeth.
+
+            </p>
+
+            <div class="row mt-5">
+              <div class=" col-1 ">
+                <i class="fa-solid fa-map-location-dot accord ion  contactus-icon"></i>
+              </div>
+              <div class="col-11 my-auto">
+                <p class=" font-20 ps-xl-1 ps-lg-2 ps-md-1 ps-3"><b>Arora
+                    Dental Clinic</b><br>
+                  Kulam Road
+                  Nawanshahr-Punjab (India)<br>
+                  <b>Tel No</b>: +91 1823-509909<br>
+                  <b>M No</b>: +91 98552-72405<br>
+                  <b>Email</b> : info@dentistnawanshahr.com
+                </p>
+                <p class="font-22 mt-2 ps-xl-1 ps-lg-2 ps-md-1 ps-3">Get
+                  Directions</p>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class=" col-1">
+                <i class="fa-regular fa-clock contactus-icon mt-2"></i>
+              </div>
+              <div class="col-11 my-auto">
+                <span class="font-20 align-items-center ps-xl-1 ps-lg-2 ps-md-1 ps-3">Monday–Friday:
+                  9AM–5PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Contact Us Section End -->
+  <!-- Footer Section Start -->
+  <section class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class=" col-xl-3 col-lg-3 col-md-6 col-12 ">
+          <h4 class="font-28  pb-xl-4 pb-lg-4 pb-md-4 pb-3   ">
+            Quick Link </h4>
+          <div class=" d-xl-block d-lg-block d-md-block d-none">
+            <a href="index.html" tar get="_blank" class=" fonter-font my-auto d-block">Home</a>
+            <a href="About.html" targ et="_blank" class=" fonter-font  my-auto d-block">About</a>
+            <a href="Services.html" ta rget="_blank" class="fonter-font  my-auto d-block">Services</a>
+            <a href="Faq.html" ta rget="_blank" class="fonter-font  my-auto d-block">Faq</a>
+            <a href="ContactUs.html" ta rget="_blank" class="fonter-font  my-auto d-block">Contact Us</a>
+          </div>
+          <div class="row d-md-none d-xl-none d-lg-none ">
+            <div class="col-6">
+              <a href="index.html" tar get="_blank" class=" fonter-font my-auto d-block">Home</a>
+              <a href="About.html" targ et="_blank" class=" fonter-font  my-auto d-block">About</a>
+              <a href="Services.html" ta rget="_blank" class="fonter-font  my-auto d-block">Services</a>
+            </div>
+            <div class="col-6">
+              <a href="Faq.html" ta rget="_blank" class="fonter-font  my-auto d-block">Faq</a>
+              <a href="ContactUs.html" ta rget="_blank" class="fonter-font  my-auto d-block">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-xl-0 mt-lg-0 mt-md-0 mt-4">
+          <h4 class="font-28  mb-xl-4 mb-lg-4 mb-md-4 mb-3 text-start   ">
+            Services</h4>
+          <a href="Dental-Implant.html" targ et="_blank" class=" fonter-font  my-auto d-block"> Dental Implants </a>
+          <a href="Root-canal.html" ta rget="_blank" class="fonter-font  my-auto d-block">Root-Canal</a>
+          <a href="Crown&bridge.html" targ et="_blank" class=" fonter-font  my-auto d-block">Crown & Bridge </a>
+          <a href="Denture-work.html" ta rget="_blank" class="fonter-font  my-auto d-block">Denture-Work</a>
+          <a href="Orthodontics.html" targ et="_blank" class=" fonter-font  my-auto d-block">Orthodontics</a>
+
+
+
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-xl-0 mt-lg-0 mt-md-3 mt-4">
+          <h4 class="font-28  mb-xl-4 mb-lg-4 mb-md-4 mb-3 text-start   ">
+            Services</h4>
+          <a href="Dental-Extraction.html" tar get="_blank" class=" fonter-font my-auto d-block">Dental Extraction</a>
+          <a href="Bleaching-services.html" tar get="_blank" class=" fonter-font my-auto d-block">Bleaching</a>
+          <a href="Restoration.html" tar get="_blank" class=" fonter-font my-auto d-block">Dental Restoration</a>
+          <a href="Periodontal.html" ta rget="_blank" class="fonter-font  my-auto d-block">Periodontal Treatment</a>
+          <a href="Full Mouth Xray.html" tar get="_blank" class=" fonter-font my-auto d-block">Full Mouth X-Ray(OPG)</a>
+
+          <!-- <a href="Dental-Implant.html" ta rget="_blank" class="fonter-font  my-auto d-block">Dental-Implant</a> -->
+
+        </div>
+        <!-- <div class="col-xl-2 col-lg-3 col-md-2 col-12 mt-xl-0 mt-lg-0 mt-md-0 mt-4">
+          <h4 class="font-28  mb-xl-3 mb-lg-4 mb-md-4 mb-3   ">
+            Services</h4>
+         
+        </div> -->
+        <div class=" col-xl-3 col-lg-3 col-md-6 col-12 mt-xl-0 mt-lg-0 mt-md-3 mt-4">
+          <h4 class="font-28   mb-xl-4 mb-lg-4 mb-md-4 mb-3  ">
+            Contact Us</h4>
+          <div class=" ">
+            <p class=" Copyright-font m-0 "><b>Arora Dental Clinic</b>
+              Kulam Road
+              Nawanshahr-Punjab (India)<br>
+            </p>
+            <p class="m-0 Copyright-font d- inline"><b>Tel No</b>:<a href="tel: 1823509909"
+                class=" fonter-font  d- inline">
+                +91 1823-509909</a></p>
+            <p class="m-0 Copyright-font d- inline"><b>M No</b>:<a href="tel: +91 9855272405"
+                class=" fonter-font  d- inline">
+                +91 95552-72405</a></p>
+            <p class="m-0 Copyright-font d- flex"><b>Email</b>:<a href="mailto:info@dentistnawanshahr.com"
+                class="ps-1 fonter-font  d- inline">
+                info@dentistnawanshahr.com</a></p>
+            <!-- <a href="#" class=" fonter-font pt-2">info@villagedentaldtc.com</a> -->
+
+          </div>
+        </div>
+        <div class=" pt-4 pb-4 pt-xl-2 pt-lg-2 pt-md-0  ">
+          <div class="gap-3 d-flex">
+            <i class="fa-brands fa-instagram footer-icon "></i>
+            <i class="fa-brands fa-facebook footer-icon  "></i>
+            <i class="fa-brands fa-whatsapp footer-icon "></i>
+            <i class="fa-brands fa-linkedin footer-icon "></i>
+          </div>
+        </div>
+
+      </div>
+      <div class=" border-color pb-5 pb-xl-0 pb-lg-0 pb-md-0">
+        <div class="pb-5 pb-xl-0 pb-lg-0 pb-md-0">
+          <p class="Copyright-font text-center mt-4 pb- 4">© 2023 Demo New All
+            rights reserved</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer End -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+  <script>
+    jQuery(document).ready(function () {
+      // Attach a click event handler to the button
+      jQuery(".navbar-toggler").click(function () {
+        // Toggle the "intro" class
+        jQuery(this).toggleClass("intro");
+      });
+    });
+  </script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 16,
+      nav: true,
+      autoplay: true,
+      dots: false,
+      autoplayTimeout: 3000,
+
+      nav: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        400: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        999: {
+          items: 3
+        },
+
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>

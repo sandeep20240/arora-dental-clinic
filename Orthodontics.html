@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orthodontics</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body class="">
+  <!-- Header Start -->
+  <nav class="navbar navbar-expand-lg bg- light pt-3 pb-3 ps-1 conainer position-sticky top-0">
+    <div class="container ps-xl-2 ps-lg-2 ps-md-0 ps-2 navbar-conatiner">
+      <a href="index.html" targ et="_blank"><img src="./images/logo.jpg" alt class="logo w- 25 h- 25"></a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="navbar-toggler-icon mm"></div>
+          <div><img src="./images/testi-icon.png" alt="" class="nav-icon"></div>
+        </button> -->
+      <div class="d-flex">
+        <div class="request-button me-4">
+          <a href="ContactUs.html"
+            class=" my-auto header-button text-center mt- 3 d-xl-none d-lg-none d-md-block d-block mx-auto ">Contact
+            Us
+          </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="navbar-toggler-icon mm"></div>
+          <div class="nav-icon "><img src="./images/icon2-(2).png" style="width: 25px;" class=" mt-1"></div>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse my-auto align-content-center" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto mb-2  gap-xl-3 gap-lg-3 gap-md-2 gap-2">
+          <li class="nav-item my-auto pt-xl-0 pt-lg-0 pt-md-3 pt-3">
+            <a class="nav-link  navfont-16px" aria-current="page" href="index.html" tar get="_blank">Home</a>
+          </li>
+          <li class="nav-item my-auto ">
+            <a class="nav-link navfont-16px " href="About.html" targ et="_blank">About</a>
+          </li>
+          <!-- <li class="nav-item my-auto ">
+              <a class="nav-link navfont-16px " href="#" tar get="_blank">Dentistry</a>
+            </li> -->
+          <li class="nav-item dropdown my-auto">
+            <a class="nav-link navfont-16px dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu my-auto">
+              <li><a class="dropdown-item navfont-16px" href="Dental-Implant.html" targ et="_blank">Dental Implants</a>
+              </li>
+              <li><a class="dropdown-item navfont-16px" href="Root-canal.html" targ et="_blank">Root-Canal Treatment</a>
+              </li>
+              <li><a class="dropdown-item navfont-16px" href="Crown&bridge.html" tar get="_blank">Crown & Bridge</a>
+              </li>
+              <li><a class="dropdown-item navfont-16px" href="Denture-work.html" tar get="_blank">Denture-Work</a></li>
+              <li><a class="dropdown-item navfont-16px" href="Orthodontics.html" tar get="_blank">Orthodontics</a></li>
+
+              <li><a class="dropdown-item navfont-16px" href="Dental-Extraction.html" tar
+                  get="_blank">Dental-Extraction</a></li>
+              <li><a class="dropdown-item navfont-16px" href="Bleaching-services.html " targ et="_blank">Bleaching</a>
+              </li>
+              <li><a class="dropdown-item navfont-16px" href="Restoration.html" tar get="_blank">Dental Restoration</a>
+              </li>
+              <li><a class="dropdown-item navfont-16px" href="Periodontal.html" tar get="_blank">Periodontal
+                  Treatment</a></li>
+
+
+              <li><a class="dropdown-item navfont-16px" href="Full Mouth Xray.html" targ et="_blank">Full Mouth X-Ray
+                  (OPG)</a>
+              </li>
+
+              <!-- <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item navfont-16px" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item my-auto">
+            <a class="nav-link navfont-16px" href="Faq.html" targe t="_blank">Faq</a>
+          </li>
+          <!-- <li class="nav-item my-auto">
+              <a class="nav-link navfont-16px" href="ContactUs.html"tar get="_blank">Contact Us</a>
+            </li> -->
+          <a href="ContactUs.html" class="header-button text-center d-xl-block d-lg-block d-md-none d-none">Contact
+            Us</a>
+        </ul>
+      </div>
+      <div class="bg-request d-xl-none d-lg-none d-md-none d-block">
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- Header End -->
+
+  <!-- Services Hero Section Start -->
+  <section>
+    <div class="Orthodontics-bannger d-flex align-items-center justify-content-center">
+      <div class="container">
+        <h1 class="fontabout-80px pb- 5 text-center "> ORTHODONTIC
+          <span class="font-color"><br class="d-xl-block d-lg-block d-md-none d-block">
+          </span>
+        </h1>
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+  <!-- About Section Start -->
+  <Section class="About-section pt-80 container">
+    <div class="row ">
+      <div
+        class=" col-xl-5 col-lg-6 col-md-12 col-12 about-bgimg ps-2 pe-2 order-last order-xl-first order-lg-first order-md-last mt-xl-0 mt-lg-0 mt-md-5 mt-5 ">
+        <img src="./images/implants-patient-jackson-family-dental.jpg" alt="" class="w-100 h-100  about-img ps-1 pe-1">
+      </div>
+      <div class="col-xl-7 col-lg-6 col-md-12 col-12 ps-xl-5 ps-lg-5 ps-md-3 ps-3 pt-0">
+        <h1 class="font-85px mb-xl-0 mb-lg-0 mb-md-0 serv-margin">TREATMENT</h1>
+        <h2 class="font-48px mb-0 pb-4">Orthodontic Treatment</h2>
+        <p class="font-20  ">Orthodontics is a dental procedure mainly focused on aligning your bite and straightening
+          your teeth. You might need to see an orthodontist if you have crooked, overlapped, twisted, or gapped teeth.
+          Common orthodontic treatments include traditional braces, clear aligners , and removable retainers.
+          The way your teeth fit together has a significant impact on your oral health. By improving the way of your
+          upper teeth and lower teeth meets, you can reduce the risk for a host of oral health issues, including
+          cavities, gum disease, and excessive wear (erosion).
+
+        </p>
+        <p class="font-20 pb-4"><b>Misconception about Orthodontics:</b><br>
+          Many people think you only start fixing crooked teeth when you're 12 and have all your adult teeth. That's not
+          true. Treatment can begin earlier if there are signs of a problem, and it's not about baby or adult teeth.<br>
+
+          Sometimes, you might need to remove four adult teeth, but the treatment itself isn't usually painful. It takes
+          about 1 to 2 years, and after that, you might need to use retention plates to keep things in place.<br>
+
+          And here's the good news: fixing your teeth isn't always super expensive! So, don't wait if you notice
+          something's not right with your teeth.
+        </p>
+
+        <a href="ContactUs.html" class="header-button ">Contact Us </a>
+      </div>
+    </div>
+  </Section>
+  <!-- <Section class="pt-80"></Section> -->
+  <!-- About Section End -->
+
+  <!-- Dental approach Section Start -->
+  <!-- <section class="pt-80 container">
+    <h2 class="font-48px text-center m-0">The Lorem ispum Dental approach to care</h2>
+    <div class="row mt-3">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-6 text-center mt-3">
+            <img src="./images/building-icon-jackson-family-dental (1).png" alt="" class="approch-icon">
+            <h4 class="font-22 mb-0">State-of-the-art facility</h4>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-6 text-center mt-3">
+            <img src="./images/handshake-icon-jackson-family-dental (1).png" alt="" class="approch-icon">
+            <h4 class="font-22 mb-0">Warm & welcoming staff</h4>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-6 text-center mt-3">
+            <img src="./images/massage-icon-jackson-family-dental (1).png" alt="" class="approch-icon">
+            <h4 class="font-22 mb-0">Soothing environment & amenities</h4>
+
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-6 text-center mt-3">
+            <img src="./images/person-icon-jackson-family-dental (1).png" alt="" class="approch-icon">
+            <h4 class="font-22 mb-0">100% personalized care</h4>
+
+        </div>
+    </div>
+</section>
+<section class="pt-80"></section> -->
+  <!-- Dental approach Section End -->
+  <!-- Gatting a filling Section Start  -->
+  <section class="pt-80"></section>
+  <section>
+    <div class="Gatting-bgimg">
+      <div class="container">
+        <div class="row">
+          <div class=" col-xl-7 col-lg-8 col-md-8 col-12 my-auto ">
+            <h3 class="font-35 mb-0">Why Clear Aligners<br>Objective:-
+
+            </h3>
+
+            <ul class="pt-4">
+              <li class="Copyright-font">Shorter treatment time.
+
+              </li>
+              <li class="Copyright-font">Early intervention.</li>
+              <li class="Copyright-font">Prevention of malocclusion at a certain age.</li>
+              <li class="Copyright-font">Emphasis on non-extraction.</li>
+              <li class="Copyright-font">Better results in less time.</li>
+              <li class="Copyright-font">Excellent comfort.</li>
+              <li class="Copyright-font">No need for patients to change rubber elastics periodically.</li>
+              <li class="Copyright-font">Fewer appointments.</li>
+              <li class="Copyright-font">Guaranteed results.</li>
+
+
+            </ul>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 d-none">
+            <img src="./images/dr-jackson-reviewing-xray-jackson-family-dental.jpg" alt=""
+              class="w-100 h-100 getting-mg">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Gatting a filling Section End  -->
+
+  <!-- About Section Start -->
+  <Section class="About-section pt-80 container  ">
+    <div class="row">
+      <div
+        class=" col-xl-5 col-lg-6 col-md-12 col-12 about-bgimg ps-2 pe-2 order-md-last order-last order-lg-first order-xl-first mt-xl-0 mt-lg-0 mt-md-5 mt-4  ">
+        <img src="./images/blog3-1024x696.jpg" alt="" class="w-100 h-100  about-img pe-1 ps-1">
+      </div>
+      <div class="col-xl-7 col-lg-6 col-md-12 col-12 ps-xl-5 ps-lg-5 ps-md-3 ps-3">
+        <!-- <h1 class="font-85px mb-xl-0 mb-lg-0 mb-md-0">INFECTIONS</h1> -->
+        <h2 class="font-48px m-0">The Benefits From Good Orthodontic Treatment</h2>
+        <ol class=" pt-3">
+          <li class="font-20"><b>Straight teeth</b> - Well aligned teeth and jaws</li>
+          <li class="font-20"><b>Healthier gums</b> - When the teeth are properly aligned the gingiva / gums are less
+            prone to infection and inflammation leading to better periodontal health.
+          </li>
+          <li class="font-20"><b>Easier hygiene</b> - With straight teeth a good oral hygiene can be maintained, which
+            means less plaque build-up, tooth decay and periodontal disease.
+          </li>
+          <li class="font-20"><b>Improved chewing and speech</b> - In come cases result from poorly positioned teeth and
+            gums. Correction of mal-aligned teeth leads to improvement in chewing and
+            speech.</li>
+          <li class="font-20"><b>Less wear and tear Of the teeth</b> - Properly aligned teeth create less stress on
+            supporting bone and joints in the jaw along with minimal attrition on the tooth surfaces.</p>
+          </li>
+
+        </ol>
+        <!-- <a href="#" class="header-button text-center mt-2">Book Appointment</a> -->
+      </div>
+
+
+    </div>
+  </Section>
+  <section class="pt-80"></section>
+
+  <!-- About Section End -->
+  <!-- Your questions, answered Section Start -->
+  <section class="whocan">
+    <div class="container">
+      <h2 class="font-48px text-center  m-0 ">Clear Aligner</h2>
+      <div class="row">
+        <div class="col-6 col-xl-6 col-lg-6 col-md-12 col-12">
+          <div class="row mt-5 ">
+            <div class="col-xl-2 col-lg-2 col-md-1 col-2 text-lg-center text-xl-center text-md-start text-start">
+              <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-11 col-10">
+              <h3 class="font-28px">How long do i have to wear Clear aligners?</h3>
+              <p class="font-20 m-0">Dental aligners are advised to be worn for a minimum of 20 hours a day to reach the
+                anticipated results. It is mandatory to wear each aligner for two weeks before switching to the next
+                one.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-xl-6 col-lg-6 col-md-12 col-12">
+          <div class="row  mt-xl-5 mt-lg-5 mt-md-4 mt-4 ">
+            <div class="col-xl-2 col-lg-2 col-md-1 col-2 text-lg-center text-xl-center text-md-start text-start">
+              <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-11 col-10">
+              <h3 class="font-28px">How does a Clear Aligner work?</h3>
+              <p class="font-20 m-0"> Clear Aligners can act as a substitute for traditional braces. Similar to braces,
+                clear aligners are also used as a tool that controls and guides tooth movement, but without those ugly
+                metal braces. </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-xl-6 col-lg-6 col-md-12 col-12">
+          <div class="row mt-4 ">
+            <div class="col-xl-2 col-lg-2 col-md-1 col-2 text-lg-center text-xl-center text-md-start text-start">
+              <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-11 col-10">
+
+              <h3 class="font-28px">A beautiful Journey to an attractive smile without conventional train-track braces!
+              </h3>
+              <p class="font-20 m-0">All one has to do is wear a sequence of clear wafer thin transparent removable
+                aligners, which will gradually guide your teeth from their present position to the new desired area to
+                give you a perfect smile you always dreamed about !!
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-xl-6 col-lg-6 col-md-12 col-12">
+          <div class="row mt-4 ">
+            <div class="col-xl-2 col-lg-2 col-md-1 col-2 text-lg-center text-xl-center text-md-start text-start">
+              <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-11 col-10">
+
+              <h3 class="font-28px">How Long is the total treatment?</h3>
+              <p class="font-20 m-0"> The complexity of the case determines the duration of treatment. The length of
+                treatment can vary from three months to even 48 months. In spite of these factors, clear aligners still
+                have the added advantage of reduced treatment time than traditional braces. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- Your questions, answered Section End -->
+
+
+  <!-- Facility Provide Section Start -->
+
+  <section class="">
+    <div class="Facility">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-2 col-1"></div>
+          <div class="col-xl-6 col-lg-6 col-md-8 col-10 bg-light text-center schedule-visit ">
+            <h3 class="font-48 pb-4 m-0">Schedule Your Visit</h3>
+            <p class="font-20 pb-4 m-0">Want a better smile? Book a visit to our friendly dental clinic now. Our expert
+              team is here to make sure your teeth get the best care in a comfortable place. Don't wait – start your
+              journey to a healthier, happier smile today!
+            </p>
+            <a href="ContactUs.html" class="header-button m-0  ">Contact Us</a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-2 col-1">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- <section class="pt-80  mb-xl-5 mb-lg-3 mb-md-3 mt-3 "></section> -->
+  <!-- Facility Provide Section End -->
+
+
+
+  <!-- Footer Section Start -->
+  <section class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class=" col-xl-3 col-lg-3 col-md-6 col-12 ">
+          <h4 class="font-28  pb-xl-4 pb-lg-4 pb-md-4 pb-3   ">
+            Quick Link </h4>
+          <div class=" d-xl-block d-lg-block d-md-block d-none">
+            <a href="index.html" tar get="_blank" class=" fonter-font my-auto d-block">Home</a>
+            <a href="About.html" targ et="_blank" class=" fonter-font  my-auto d-block">About</a>
+            <a href="Services.html" ta rget="_blank" class="fonter-font  my-auto d-block">Services</a>
+            <a href="Faq.html" ta rget="_blank" class="fonter-font  my-auto d-block">Faq</a>
+            <a href="ContactUs.html" ta rget="_blank" class="fonter-font  my-auto d-block">Contact Us</a>
+          </div>
+          <div class="row d-md-none d-xl-none d-lg-none ">
+            <div class="col-6">
+              <a href="index.html" tar get="_blank" class=" fonter-font my-auto d-block">Home</a>
+              <a href="About.html" targ et="_blank" class=" fonter-font  my-auto d-block">About</a>
+              <a href="Services.html" ta rget="_blank" class="fonter-font  my-auto d-block">Services</a>
+            </div>
+            <div class="col-6">
+              <a href="Faq.html" ta rget="_blank" class="fonter-font  my-auto d-block">Faq</a>
+              <a href="ContactUs.html" ta rget="_blank" class="fonter-font  my-auto d-block">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-xl-0 mt-lg-0 mt-md-0 mt-4">
+          <h4 class="font-28  mb-xl-4 mb-lg-4 mb-md-4 mb-3 text-start   ">
+            Services</h4>
+          <a href="Dental-Implant.html" targ et="_blank" class=" fonter-font  my-auto d-block"> Dental Implants </a>
+          <a href="Root-canal.html" ta rget="_blank" class="fonter-font  my-auto d-block">Root-Canal</a>
+          <a href="Crown&bridge.html" targ et="_blank" class=" fonter-font  my-auto d-block">Crown & Bridge </a>
+          <a href="Denture-work.html" ta rget="_blank" class="fonter-font  my-auto d-block">Denture-Work</a>
+          <a href="Orthodontics.html" targ et="_blank" class=" fonter-font  my-auto d-block">Orthodontics</a>
+
+
+
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-6 mt-xl-0 mt-lg-0 mt-md-3 mt-4">
+          <h4 class="font-28  mb-xl-4 mb-lg-4 mb-md-4 mb-3 text-start   ">
+            Services</h4>
+          <a href="Dental-Extraction.html" tar get="_blank" class=" fonter-font my-auto d-block">Dental Extraction</a>
+          <a href="Bleaching-services.html" tar get="_blank" class=" fonter-font my-auto d-block">Bleaching</a>
+          <a href="Restoration.html" tar get="_blank" class=" fonter-font my-auto d-block">Dental Restoration</a>
+          <a href="Periodontal.html" ta rget="_blank" class="fonter-font  my-auto d-block">Periodontal Treatment</a>
+          <a href="Full Mouth Xray.html" tar get="_blank" class=" fonter-font my-auto d-block">Full Mouth X-Ray(OPG)</a>
+
+          <!-- <a href="Dental-Implant.html" ta rget="_blank" class="fonter-font  my-auto d-block">Dental-Implant</a> -->
+
+        </div>
+        <!-- <div class="col-xl-2 col-lg-3 col-md-2 col-12 mt-xl-0 mt-lg-0 mt-md-0 mt-4">
+          <h4 class="font-28  mb-xl-3 mb-lg-4 mb-md-4 mb-3   ">
+            Services</h4>
+         
+        </div> -->
+        <div class=" col-xl-3 col-lg-3 col-md-6 col-12 mt-xl-0 mt-lg-0 mt-md-3 mt-4">
+          <h4 class="font-28   mb-xl-4 mb-lg-4 mb-md-4 mb-3  ">
+            Contact Us</h4>
+          <div class=" ">
+            <p class=" Copyright-font m-0 "><b>Arora Dental Clinic</b>
+              Kulam Road
+              Nawanshahr-Punjab (India)<br>
+            </p>
+            <p class="m-0 Copyright-font d- inline"><b>Tel No</b>:<a href="tel: 1823509909"
+                class=" fonter-font  d- inline">
+                +91 1823-509909</a></p>
+            <p class="m-0 Copyright-font d- inline"><b>M No</b>:<a href="tel: +91 9855272405"
+                class=" fonter-font  d- inline">
+                +91 95552-72405</a></p>
+            <p class="m-0 Copyright-font d- flex"><b>Email</b>:<a href="mailto:info@dentistnawanshahr.com"
+                class="ps-1 fonter-font  d- inline">
+                info@dentistnawanshahr.com</a></p>
+            <!-- <a href="#" class=" fonter-font pt-2">info@villagedentaldtc.com</a> -->
+
+          </div>
+        </div>
+        <div class=" pt-4 pb-4 pt-xl-2 pt-lg-2 pt-md-0  ">
+          <div class="gap-3 d-flex">
+            <i class="fa-brands fa-instagram footer-icon "></i>
+            <i class="fa-brands fa-facebook footer-icon  "></i>
+            <i class="fa-brands fa-whatsapp footer-icon "></i>
+            <i class="fa-brands fa-linkedin footer-icon "></i>
+          </div>
+        </div>
+
+      </div>
+      <div class=" border-color pb-5 pb-xl-0 pb-lg-0 pb-md-0">
+        <div class="pb-5 pb-xl-0 pb-lg-0 pb-md-0">
+          <p class="Copyright-font text-center mt-4 pb- 4">© 2023 Demo New All
+            rights reserved</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer End -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+  <script>
+    jQuery(document).ready(function () {
+      // Attach a click event handler to the button
+      jQuery(".navbar-toggler").click(function () {
+        // Toggle the "intro" class
+        jQuery(this).toggleClass("intro");
+      });
+    });
+  </script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 16,
+      nav: true,
+      autoplay: true,
+      dots: false,
+      autoplayTimeout: 3000,
+
+      nav: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        999: {
+          items: 3
+        },
+
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
