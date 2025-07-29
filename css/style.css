@@ -4,24 +4,29 @@
     object-fit: contain;
     object-position: center;
 }
+
 section.footer-section h4 {
     margin-bottom: 1.5em !important;
     padding-bottom: 0px !important;
 }
+
 section.footer-section i {
     margin-top: 20px;
 }
+
 /* .container {
     width: 1640px;
 } */
-.navbar{
+.navbar {
     position: sticky !important;
     top: 0;
     z-index: 999999999 !important;
     background-color: #fff !important;
 }
-.navbar-toggler-icon,.nav-icon  img{
-    width:1em !important;
+
+.navbar-toggler-icon,
+.nav-icon img {
+    width: 1em !important;
 }
 
 .navfont-16px {
@@ -71,7 +76,8 @@ section.footer-section i {
 .navfont-16px:hover {
     color: #67b41a !important;
 }
-.hero-img{
+
+.hero-img {
     position: absolute;
     top: 0%;
     /* left: 52%; */
@@ -80,10 +86,11 @@ section.footer-section i {
     /* object-fit: cover;
     object-position: center; */
 }
-.img-carausel{
-        max-width: 1320px !important;
-        margin: auto !important;
-    }
+
+.img-carausel {
+    max-width: 1320px !important;
+    margin: auto !important;
+}
 
 
 /* nav.active {
@@ -124,13 +131,15 @@ section.footer-section i {
     line-height: 1.2;
     color: #67b41a !important;
 }
-.sub-heading{
+
+.sub-heading {
     font-size: 24px;
     font-weight: 600;
     color: #0187aa;
     line-height: 1.2;
     margin: 0;
 }
+
 .readmore {
     font-size: 16px;
     text-decoration: none;
@@ -139,7 +148,7 @@ section.footer-section i {
     position: absolute;
     bottom: 20px;
     transform: translate(-50%, -50%);
-    
+
 
 }
 
@@ -208,7 +217,9 @@ section.footer-section i {
     object-fit: cover;
 }
 
-
+.bg_light {
+    background-color: #E6F3F7;
+}
 
 .img-postion {
     object-fit: cover;
@@ -232,27 +243,31 @@ section.footer-section i {
     color: #e9f6f4 !important;
     font-weight: 900;
 }
+
 .testi-username {
     position: absolute;
     bottom: 20px;
 }
+
 .font-48px {
     font-size: 42px;
     font-weight: 500;
     color: #0187aa !important;
     margin-top: -35px;
     line-height: 1.0 !important;
-    
+
 
 }
-.schedule-visit{
+
+.schedule-visit {
     padding: 60px 40px 80px 40px !important;
 }
-.font-48{
+
+.font-48 {
     font-size: 42px;
     font-weight: 500;
     color: #0187aa !important;
-   
+
 }
 
 .font-26px {
@@ -559,17 +574,20 @@ section.footer-section i {
     font-weight: 400;
     color: black;
 }
-.ourteam-col{
+
+.ourteam-col {
     padding: 23px;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
     height: 185px;
 }
-.ourteam-col:hover{
+
+.ourteam-col:hover {
     border: 5px solid transparent;
-   
-    
+
+
 }
+
 .our-mission {
     background-color: #e9f6f4;
     padding: 80px 50px;
@@ -636,7 +654,15 @@ section.footer-section i {
 .font-35 {
     font-size: 35px;
     font-weight: 500;
-    color: white;
+
+}
+
+.text_white {
+    color: white !important;
+}
+
+.text_black {
+    color: black !important;
 }
 
 /* Services Page Css Start */
@@ -903,9 +929,10 @@ section.footer-section i {
 
 /* Cosemetic Page Css End */
 /* Faq Page Css Start */
-.accordion-button::after{
+.accordion-button::after {
     background-size: 20px !important;
 }
+
 .faq-bannger {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.276)), url(../images/arora12.JPG);
@@ -936,7 +963,7 @@ section.footer-section i {
     --bs-accordion-btn-focus-box-shadow: unset !important;
     --bs-accordion-btn-icon-width: 30px !important;
     --bs-accordion-btn-active-icon: url('../images/download.png') !important;
-   
+
 }
 
 /* .accordion-button:not(.collapsed)::after {
@@ -950,25 +977,29 @@ section.footer-section i {
 
 
 }
+
 .herocol-color {
     padding: 120px 12px !important;
 }
+
 /* .accordion-button::after {
     background-size: unset !important;
 } */
 
 /* Faq Page Css End */
-@media (min-width:1441px) and (max-width:1920px){
-    .herocol-color{
+@media (min-width:1441px) and (max-width:1920px) {
+    .herocol-color {
         padding-top: 80px 40px 80px 16px;
     }
 }
-@media (min-width:1400px) and (max-width:1440px) { 
-    .img-carausel{
-        max-width: 1320px!important;
+
+@media (min-width:1400px) and (max-width:1440px) {
+    .img-carausel {
+        max-width: 1320px !important;
         margin: auto !important;
     }
-    .hero-img{
+
+    .hero-img {
         position: absolute;
         /* left: 52%; */
         right: 0;
@@ -976,18 +1007,21 @@ section.footer-section i {
         object-position: center; */
     }
 }
-@media (min-width:1200px) and (max-width:1400px) { 
-    .img-carausel{
-        max-width: 1140px!important;
+
+@media (min-width:1200px) and (max-width:1400px) {
+    .img-carausel {
+        max-width: 1140px !important;
         margin: auto !important;
     }
-    .hero-img{
+
+    .hero-img {
         position: absolute;
         /* left: 52%; */
         right: 0;
         /* object-fit: cover;
         object-position: center; */
     }
+
     .services-bg {
         background-color: #e9f6f4;
         padding-top: 80px;
@@ -995,18 +1029,21 @@ section.footer-section i {
         margin-top: -80px;
     }
 }
-@media (min-width:990px) and (max-width:1200px) { 
-    .img-carausel{
-        max-width: 960px!important;
+
+@media (min-width:990px) and (max-width:1200px) {
+    .img-carausel {
+        max-width: 960px !important;
         margin: auto !important;
     }
-    .hero-img{
+
+    .hero-img {
         position: absolute;
         /* left: 57%; */
         right: 0;
         /* object-fit: cover;
         object-position: center; */
     }
+
     .services-bg {
         background-color: #e9f6f4;
         padding-top: 80px;
@@ -1014,55 +1051,63 @@ section.footer-section i {
         margin-top: -75px;
     }
 }
-@media(min-width:767px) and (max-width:992px){
-    .img-carausel{
-        max-width: 720px!important;
+
+@media(min-width:767px) and (max-width:992px) {
+    .img-carausel {
+        max-width: 720px !important;
         margin: auto !important;
     }
-    .hero-img{
+
+    .hero-img {
         position: unset;
         /* left: 57%; */
         right: 0;
         object-fit: cover;
         object-position: center;
     }
+
     .hero-background {
         background-image: url("../images/Untitled-1fefr.jpg");
         object-fit: cover;
         padding-bottom: 80px !important;
     }
-   
+
     /* .hero-padding{
         padding: 40px 0px !important;
     } */
 }
- @media(max-width:767px){
-    .img-carausel{
-        max-width: 540px!important;
+
+@media(max-width:767px) {
+    .img-carausel {
+        max-width: 540px !important;
         margin: auto !important;
     }
-    .hero-img{
+
+    .hero-img {
         position: unset;
         /* left: 57%; */
         right: 0;
         /* object-fit: cover;
         object-position: center; */
     }
+
     .hero-background {
-        
+
         padding-bottom: 80px !important;
     }
- }
-@media(max-width:950px){
+}
+
+@media(max-width:950px) {
 
     /* .navbar-conatiner{
         display: grid !important;
     grid-template-columns: 55% 35% 10%;
     } */
-    .request-button  a{
+    .request-button a {
         width: max-content;
     }
 }
+
 @media (min-width:992px) and (max-width:1200px) {
     .footer-logo {
         height: 180px;
@@ -1073,13 +1118,15 @@ section.footer-section i {
     .boxshadow-col {
         height: 360px;
     }
+
     .services-border {
         border: 1px solid #b7baba;
         height: 360px;
     }
+
     .herocol-color {
         padding: 80px 014px !important;
-     }
+    }
 
     /* .herocol-color {
         padding: 60px 60px !important;
@@ -1087,6 +1134,7 @@ section.footer-section i {
     .footer- contact {
         margin-bottom: 80px;
     }
+
     .font-40px {
         font-size: 35px;
         color: white;
@@ -1108,13 +1156,15 @@ section.footer-section i {
         margin-bottom: 10px;
         padding: 8px;
     }
-    .ourteam-col{
+
+    .ourteam-col {
         padding: 20px;
         border-radius: 10px 10px 10px 10px;
-        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
         height: 210px;
     }
-    .schedule-visit{
+
+    .schedule-visit {
         padding: 50px 30px 70px 30px !important;
     }
 }
@@ -1128,9 +1178,11 @@ section.footer-section i {
         font-size: 60px;
 
     }
+
     .herocol-color {
         padding: 60px 014px !important;
     }
+
     .footer-logo {
         /* height: 320px; */
         width: 50%;
@@ -1140,10 +1192,12 @@ section.footer-section i {
     .boxshadow-col {
         height: 320px;
     }
+
     .services-border {
         border: 1px solid #b7baba;
         height: 280px !important;
     }
+
     .logo {
         height: 70px;
         width: 140px;
@@ -1233,7 +1287,8 @@ section.footer-section i {
     .our-vision {
         height: 420px;
     }
-    .schedule-visit{
+
+    .schedule-visit {
         padding: 50px 30px 70px 30px !important;
     }
 }
@@ -1241,18 +1296,20 @@ section.footer-section i {
 @media (max-width:767px) {
 
     .herocol-color {
-        padding: 40px 014px !important;}
-      
+        padding: 40px 014px !important;
+    }
+
     .font-80px {
         font-size: 45px;
         font-weight: 700;
         line-height: 1.2;
         color: #67b41a !important;
     }
-    .ourteam-col{
+
+    .ourteam-col {
         padding: 20px;
         border-radius: 10px 10px 10px 10px;
-        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
         height: 180px;
     }
 
@@ -1272,10 +1329,12 @@ section.footer-section i {
         line-height: 1.0;
         color: #0187aa !important;
     }
+
     .services-border {
         border: 1px solid #b7baba;
         height: 300px !important;
     }
+
     .boxshadow-col {
         height: 400px !important;
     }
@@ -1302,7 +1361,8 @@ section.footer-section i {
         margin-top: -25px;
 
     }
-    .font-48{
+
+    .font-48 {
         font-size: 36px;
         font-weight: 500;
         color: #0187aa !important;
@@ -1493,16 +1553,19 @@ section.footer-section i {
     .Orthodontics-bannger {
         height: 400px;
     }
+
     .our-mission {
         background-color: #e9f6f4;
         padding: 60px 20px;
     }
-    .schedule-visit{
+
+    .schedule-visit {
         padding: 40px 30px 60px 30px !important;
     }
 
 }
-@media (max-width:600px)  {
+
+@media (max-width:600px) {
     .boxshadow-col {
         height: 320px !important;
     }
