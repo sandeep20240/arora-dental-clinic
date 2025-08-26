@@ -313,7 +313,7 @@ section.footer-section i {
 
 .Services-bgimg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.6)), url(../images/bridges-jackson-family-dental.jpg);
+            rgba(0, 0, 0, 0.6)), url(../images/dental-implants.jpg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -328,7 +328,7 @@ section.footer-section i {
 
 .Services-bgimg2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.6)), url(../images/crowns.jpg);
+            rgba(0, 0, 0, 0.6)), url(../images/Orthodontics-banner.jpg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -345,7 +345,7 @@ section.footer-section i {
 
 .Services-bgimg4 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.6)), url(../images/dr-jackson-reviewing-xray-jackson-family-dental.jpg);
+            rgba(0, 0, 0, 0.6)), url(../images/root-canal.jpg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -353,7 +353,7 @@ section.footer-section i {
 
 .Services-bgimg5 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.6)), url(../images/Jackson-Family-Dental-kansas-city-mo-dr-jackson-with-patient.jpg);
+            rgba(0, 0, 0, 0.6)), url(../images/dentalextraction-banner.jpg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -361,7 +361,7 @@ section.footer-section i {
 
 .Services-bgimg6 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.6)), url(../images/Jackson-Family-Dental-modern-technology.jpg);
+            rgba(0, 0, 0, 0.6)), url(../images/implants-pearl-dentistry-banner.jpg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -377,7 +377,7 @@ section.footer-section i {
 
 .Services-bgimg8 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.6)), url(../images/implant-diorama-jackson-family-dental.jpg);
+            rgba(0, 0, 0, 0.6)), url(../images/portfolio4.jpg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -385,7 +385,7 @@ section.footer-section i {
 
 .Services-bgimg7 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.6)), url(../images/implants-patient-jackson-family-dental.jpg);
+            rgba(0, 0, 0, 0.6)), url(../images/implant-diorama-jackson-family-dental.jpg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -503,7 +503,7 @@ section.footer-section i {
 
 
 
-.about-bannger {
+.about-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.276)), url(../images/arora8.JPG);
     background-size: cover;
@@ -617,7 +617,7 @@ section.footer-section i {
 
 /* About Page Css End */
 /* Contact Us Page Css Start */
-.contact-bannger {
+.contact-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.276)), url(../images/arora3.JPG);
     background-size: cover;
@@ -707,7 +707,7 @@ section.footer-section i {
 
 .Facility {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/implant-diorama-jackson-family-dental\ \(1\).jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/visit.jpg);
 
     background-size: cover;
     display: -webkit-box;
@@ -723,7 +723,7 @@ section.footer-section i {
 
 /* Blaching-services Page Css Start */
 
-.bleaching-bannger {
+.bleaching-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.276)), url(../images/portfolio4.jpg);
     background-size: cover;
@@ -786,7 +786,7 @@ section.footer-section i {
 }
 
 /* Crown&bridge Page Css Start */
-.crownbridge-bannger {
+.crownbridge-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.276)), url(../images/teeth-jackson-family-dental.jpg);
     background-size: cover;
@@ -815,9 +815,9 @@ section.footer-section i {
 }
 
 /* Dental-Extracton Page Css Start */
-.dentalextraction-bannger {
+.dentalextraction-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/dentist-glasses-jackson-family-dental.jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/dentalextraction-banner.jpg);
     background-size: cover;
     background-position: center;
     /* padding-top: 100px;
@@ -841,7 +841,7 @@ section.footer-section i {
 }
 
 /* Dental-Implant Page Css Start */
-.Dentalimplant-bannger {
+.Dentalimplant-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.276)), url(../images/teeth-whitening-1024x532.jpg);
     background-size: cover;
@@ -856,7 +856,7 @@ section.footer-section i {
 }
 
 /* Dental-work Page Css start */
-.Dentalwork-bannger {
+.Dentalwork-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.276)), url(../images/implants-pearl-dentistry-banner.jpg);
     background-size: cover;
@@ -873,9 +873,23 @@ section.footer-section i {
 /* Dental-work Page Css End */
 
 /* Othodontics Page Css Start */
-.Orthodontics-bannger {
+.dentalImplants-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/implant-diorama-jackson-family-dental\ \(1\).jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/dental-implants.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 100px;
+   padding-bottom: 100px; */
+    /* padding-top: 600px; */
+    height: 550px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.Orthodontics-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.276)), url(../images/Orthodontics-banner.jpg);
     background-size: cover;
     background-position: center;
     /* padding-top: 100px;
@@ -897,9 +911,9 @@ section.footer-section i {
 
 /* Othodontics Page Css End */
 /* Root-canal Page Css Start */
-.Rootcanal-bannger {
+.Rootcanal-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/dr-jackson-reviewing-xray-jackson-family-dental.jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/root-canal.jpg);
     background-size: cover;
     background-position: center;
     /* padding-top: 100px;
@@ -912,9 +926,22 @@ section.footer-section i {
 
 /* Root Canal Page Css End */
 /* Periodontal Page Css Start */
-.periodontal-bannger {
+.periodontal-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/implant-diorama-jackson-family-dental\ \(1\).jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/periodontal-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 100px;
+   padding-bottom: 100px; */
+    height: 550px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.mouthx-ray-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.276)), url(../images/mouthx-ray-banner.jpg);
     background-size: cover;
     background-position: center;
     /* padding-top: 100px;
@@ -927,7 +954,7 @@ section.footer-section i {
 
 /* Periodontal Page Css End */
 /* Cosemetic Page Css Start */
-.cosemetic-bannger {
+.cosemetic-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.276)), url(../images/title_bg.jpg);
     background-size: cover;
@@ -946,7 +973,7 @@ section.footer-section i {
     background-size: 20px !important;
 }
 
-.faq-bannger {
+.faq-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.276)), url(../images/arora12.JPG);
     background-size: cover;
@@ -1504,66 +1531,67 @@ section.footer-section i {
         margin-top: 0px;
     }
 
-    .about-bannger {
+    .about-banner {
 
         height: 400px;
 
     }
 
-    .faq-bannger {
+    .faq-banner {
 
         height: 400px;
 
     }
 
-    .cosemetic-bannger {
+    .cosemetic-banner {
 
         height: 400px;
 
     }
 
-    .periodontal-bannger {
+    .periodontal-banner {
 
         height: 400px;
 
     }
 
-    .Rootcanal-bannger {
+    .Rootcanal-banner {
 
         height: 400px;
 
     }
 
-    .about-bannger {
+    .about-banner {
         height: 400px;
     }
 
-    .contact-bannger {
+    .contact-banner {
         height: 400px;
     }
 
-    .bleaching-bannger {
+    .bleaching-banner {
         height: 400px;
 
     }
 
-    .crownbridge-bannger {
+    .crownbridge-banner {
         height: 400px;
     }
 
-    .dentalextraction-bannger {
+    .dentalextraction-banner {
         height: 400px;
     }
 
-    .Dentalimplant-bannger {
+    .Dentalimplant-banner {
         height: 400px;
     }
 
-    .Dentalwork-bannger {
+    .Dentalwork-banner {
         height: 400px;
     }
 
-    .Orthodontics-bannger,
+    .Orthodontics-banner,
+    .dentalImplants-banner,
     .Intraoral-scanner {
         height: 400px;
     }
