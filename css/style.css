@@ -884,6 +884,17 @@ section.footer-section i {
     -webkit-box-align: center;
 }
 
+.dental-bannger {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.276)), url(../images/dental-implants.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
 .restoration-bannger {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.276)), url(../images/restoration.jpg);
