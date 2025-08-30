@@ -313,7 +313,7 @@ section.footer-section i {
 
 .Services-bgimg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.6)), url(../images/bridges-jackson-family-dental.jpg);
+            rgba(0, 0, 0, 0.6)), url(../images/dental.jpg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -328,7 +328,7 @@ section.footer-section i {
 
 .Services-bgimg2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.6)), url(../images/crowns.jpg);
+            rgba(0, 0, 0, 0.6)), url(../images/orthodontics.jpg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -817,7 +817,7 @@ section.footer-section i {
 /* Dental-Extracton Page Css Start */
 .dentalextraction-bannger {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/dentist-glasses-jackson-family-dental.jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/dentalextraction.jpg);
     background-size: cover;
     background-position: center;
     /* padding-top: 100px;
@@ -875,12 +875,31 @@ section.footer-section i {
 /* Othodontics Page Css Start */
 .Orthodontics-bannger {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/implant-diorama-jackson-family-dental\ \(1\).jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/orthodontics.jpg);
     background-size: cover;
     background-position: center;
-    /* padding-top: 100px;
-   padding-bottom: 100px; */
-    /* padding-top: 600px; */
+    height: 550px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.restoration-bannger {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.276)), url(../images/restoration.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.mouth-x-ray-bannger {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.276)), url(../images/mouth-x-ray.jpg);
+    background-size: cover;
+    background-position: center;
     height: 550px;
     display: -webkit-box;
     -webkit-box-pack: center;
@@ -899,7 +918,7 @@ section.footer-section i {
 /* Root-canal Page Css Start */
 .Rootcanal-bannger {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/dr-jackson-reviewing-xray-jackson-family-dental.jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/root-canal.jpg);
     background-size: cover;
     background-position: center;
     /* padding-top: 100px;
