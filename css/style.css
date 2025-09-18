@@ -817,7 +817,7 @@ section.footer-section i {
 /* Dental-Extracton Page Css Start */
 .dentalextraction-bannger {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/dentalextraction.jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/denture_extraction_banner.jpg);
     background-size: cover;
     background-position: center;
     /* padding-top: 100px;
@@ -858,7 +858,7 @@ section.footer-section i {
 /* Dental-work Page Css start */
 .Dentalwork-bannger {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/implants-pearl-dentistry-banner.jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/denture_work_banner.jpg);
     background-size: cover;
     background-position: center;
     /* padding-top: 100px; */
@@ -886,7 +886,7 @@ section.footer-section i {
 
 .dental-bannger {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/dental-implants.jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/dental-banner.png);
     background-size: cover;
     background-position: center;
     height: 550px;
@@ -918,7 +918,7 @@ section.footer-section i {
 }
 
 .Intraoral-scanner {
-    background-image: url(../images/intraoral-scanner.jpg);
+    background-image: url(../images/Intraoral_Scanner_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -944,7 +944,7 @@ section.footer-section i {
 /* Periodontal Page Css Start */
 .periodontal-bannger {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.276)), url(../images/implant-diorama-jackson-family-dental\ \(1\).jpg);
+            rgba(0, 0, 0, 0.276)), url(../images/Periodontal_dental_banner.jpg);
     background-size: cover;
     background-position: center;
     /* padding-top: 100px;
